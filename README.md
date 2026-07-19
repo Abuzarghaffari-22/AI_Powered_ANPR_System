@@ -1,8 +1,23 @@
 <img width="1844" height="922" alt="Screenshot from 2026-07-09 00-24-49" src="https://github.com/user-attachments/assets/615e5df0-f9cb-4d39-9aea-73dde139363f" />
+
+
+### Login
+Secure JWT-based authentication gating access to the dashboard.
+
 <img width="1844" height="922" alt="Screenshot from 2026-07-09 00-28-36" src="https://github.com/user-attachments/assets/6d03d16d-42c6-4895-88d2-924e7b7142e5" />
+
+### Dashboard Overview
+Live system stats (total vehicles, authorized count, today's detections) with a real-time camera feed streamed over WebSocket from a DroidCam IP source.
+
 <img width="1844" height="922" alt="Screenshot from 2026-07-09 00-06-47" src="https://github.com/user-attachments/assets/361e9d8f-962a-433e-a85e-546490564687" />
+
+### Detection — Authorized Vehicle
+YOLOv11 localizes the plate (73% conf.) and Tesseract OCR reads it (95% conf.). The result is matched against the MySQL registry — owner, vehicle, dues status — and access is granted in real time
+
 <img width="1844" height="922" alt="Screenshot from 2026-07-09 00-07-31" src="https://github.com/user-attachments/assets/382795f4-b428-4704-98a9-efda68add36c" />
 
+### Detection — Unauthorized Vehicle
+Same pipeline flags a plate not cleared in the database — vehicle info is still resolved via fuzzy matching, but status is marked unauthorized and logged to Alerts.
 
 # ANPR System — Automatic Number Plate Recognition
 
