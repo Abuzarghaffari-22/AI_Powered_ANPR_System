@@ -1,7 +1,8 @@
 <img width="1844" height="922" alt="Screenshot from 2026-07-09 00-24-49" src="https://github.com/user-attachments/assets/615e5df0-f9cb-4d39-9aea-73dde139363f" />
+<img width="1844" height="922" alt="Screenshot from 2026-07-09 00-28-36" src="https://github.com/user-attachments/assets/6d03d16d-42c6-4895-88d2-924e7b7142e5" />
 <img width="1844" height="922" alt="Screenshot from 2026-07-09 00-06-47" src="https://github.com/user-attachments/assets/361e9d8f-962a-433e-a85e-546490564687" />
 <img width="1844" height="922" alt="Screenshot from 2026-07-09 00-07-31" src="https://github.com/user-attachments/assets/382795f4-b428-4704-98a9-efda68add36c" />
-<img width="1844" height="922" alt="Screenshot from 2026-07-09 00-28-36" src="https://github.com/user-attachments/assets/6d03d16d-42c6-4895-88d2-924e7b7142e5" />
+
 
 # ANPR System — Automatic Number Plate Recognition
 
