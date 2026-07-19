@@ -1,0 +1,37 @@
+# Secrets — never commit
+FYP/backend/.env
+FYP/frontend/.env.local
+*.env
+
+# Python
+FYP/backend/venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Logs (keep folder via .gitkeep, ignore log files)
+FYP/logs/*.log
+FYP/backend/cysignals_crash_logs/
+
+# Runtime-generated plate crop images
+FYP/backend/crops/*.jpg
+FYP/backend/crops/*.jpeg
+FYP/backend/crops/*.png
+
+# YOLO model weights (large binary — use Git LFS or share separately)
+FYP/backend/models/*.pt
+
+# Node / Next.js
+FYP/frontend/node_modules/
+FYP/frontend/.next/
+FYP/frontend/tsconfig.tsbuildinfo
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+FYP/data/car_data/
+FYP/data/Car_info.xlsx
